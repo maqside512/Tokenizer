@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tokenizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40d26bb86b1250d6f08b276fa5d13ac4c4f87aaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1932897e355b1e25bd8c6e67a6db3ad1143270d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tokenizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tokenizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
