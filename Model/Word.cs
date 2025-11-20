@@ -1,16 +1,18 @@
-using System.Dynamic;
+using Tokenizer.Model;
 
 namespace Tokenizer.Model
 {
-    public class Word: Tokenizer
+    public class Word : Token
     {
         public string Value { get; }
 
-        public Word(int value)
+        public Word(string Value)
         {
-            Value = value;
+            this.Value = Value;
         }
 
         public override string GetValue() => Value;
+
+        public int Length => Value.Length;
     }
 }

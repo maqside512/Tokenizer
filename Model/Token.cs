@@ -1,4 +1,4 @@
-namespace Tokenizer.Model
+namespace Tokenizer.Model 
 {
     public abstract class Token
     {

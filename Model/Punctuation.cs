@@ -1,6 +1,8 @@
+using Tokenizer.Model;
+
 namespace Tokenizer.Model
 {
-    public class Punctuation: Tokenizer
+    public class Punctuation : Token
     {
         public char Symbol { get; }
 
@@ -9,6 +11,14 @@ namespace Tokenizer.Model
             Symbol = symbol;
         }
 
-        public override string GetValue() => Symbol.ToString();
+        public override string GetValue()
+        {
+            return Symbol.ToString();
+        }
+
+        public static bool IsPunctuation(char c)
+        {
+            return char.IsPunctuation(c) || c == '!' || c == '?' || c == '.' || c == ',' || c == ';' || c == ':';
+        }
     }
 }
