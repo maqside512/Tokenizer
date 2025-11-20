@@ -5,6 +5,13 @@ namespace Tokenizer.Model
     public class Punctuation : Token
     {
         [XmlText]
+        public string SymbolString 
+        { 
+            get => Symbol.ToString();
+            set => Symbol = value.Length > 0 ? value[0] : ' ';
+        }
+
+        [XmlIgnore]
         public char Symbol { get; set; }
 
         public Punctuation(char symbol)

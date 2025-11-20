@@ -4,8 +4,8 @@ namespace Tokenizer.Model
 {
     public class Word : Token
     {
-        [XmlText]
-        public string Value { get; }
+        [XmlAttribute("Value")]
+        public string Value { get; set; }
 
         public Word(string value)
         {

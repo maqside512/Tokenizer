@@ -1,0 +1,15 @@
+/home/ilya/Tokenizer/obj/Debug/net9.0/Tokenizer.GeneratedMSBuildEditorConfig.editorconfig
+/home/ilya/Tokenizer/obj/Debug/net9.0/Tokenizer.AssemblyInfoInputs.cache
+/home/ilya/Tokenizer/obj/Debug/net9.0/Tokenizer.AssemblyInfo.cs
+/home/ilya/Tokenizer/obj/Debug/net9.0/Tokenizer.csproj.CoreCompileInputs.cache
+/home/ilya/Tokenizer/obj/Debug/net9.0/Tokenizer.sourcelink.json
+/home/ilya/Tokenizer/bin/Debug/net9.0/Tokenizer
+/home/ilya/Tokenizer/bin/Debug/net9.0/Tokenizer.deps.json
+/home/ilya/Tokenizer/bin/Debug/net9.0/Tokenizer.runtimeconfig.json
+/home/ilya/Tokenizer/bin/Debug/net9.0/Tokenizer.dll
+/home/ilya/Tokenizer/bin/Debug/net9.0/Tokenizer.pdb
+/home/ilya/Tokenizer/obj/Debug/net9.0/Tokenizer.dll
+/home/ilya/Tokenizer/obj/Debug/net9.0/refint/Tokenizer.dll
+/home/ilya/Tokenizer/obj/Debug/net9.0/Tokenizer.pdb
+/home/ilya/Tokenizer/obj/Debug/net9.0/Tokenizer.genruntimeconfig.cache
+/home/ilya/Tokenizer/obj/Debug/net9.0/ref/Tokenizer.dll

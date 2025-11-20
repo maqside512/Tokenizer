@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sentence>
+    <Word Value="Hello" />
+    <Word Value="world" />
+    <Punctuation>!</Punctuation>
+  </Sentence>
+  <Sentence>
+    <Word Value="How" />
+    <Word Value="are" />
+    <Word Value="you" />
+    <Punctuation>?</Punctuation>
+  </Sentence>
+  <Sentence>
+    <Word Value="I" />
+    <Word Value="am" />
+    <Word Value="fine" />
+    <Punctuation>.</Punctuation>
+  </Sentence>
+  <Sentence>
+    <Word Value="This" />
+    <Word Value="is" />
+    <Word Value="a" />
+    <Word Value="test" />
+    <Punctuation>.</Punctuation>
+  </Sentence>
+</Text>

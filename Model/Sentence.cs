@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Xml.Serialization;
 
 namespace Tokenizer.Model
@@ -13,14 +14,20 @@ namespace Tokenizer.Model
         public int WordCount => Tokens.Count(t => t is Word);
         public int Length => Tokens.Sum(t => t.GetValue().Length);
 
-        public void AddToken(Token token)
-        {
-            Tokens.Add(token);
-        }
+        public void AddToken(Token token) => Tokens.Add(token);
 
         public override string ToString()
         {
-            return string.Join("", Tokens.Select(t => t.GetValue()));
+            var result = new StringBuilder();
+            for (int i = 0; i < Tokens.Count; i++)
+            {
+                result.Append(Tokens[i].GetValue());
+                if (i < Tokens.Count - 1 && Tokens[i] is Word && Tokens[i + 1] is Word)
+                {
+                    result.Append(" ");
+                }
+            }
+            return result.ToString();
         }
     }
 }
