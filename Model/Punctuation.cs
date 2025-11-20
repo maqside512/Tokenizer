@@ -1,14 +1,19 @@
-using Tokenizer.Model;
+using System.Xml.Serialization;
 
 namespace Tokenizer.Model
 {
     public class Punctuation : Token
     {
-        public char Symbol { get; }
+        [XmlText]
+        public char Symbol { get; set; }
 
         public Punctuation(char symbol)
         {
             Symbol = symbol;
+        }
+
+        public Punctuation()
+        {
         }
 
         public override string GetValue()

@@ -1,14 +1,20 @@
-using Tokenizer.Model;
+using System.Xml.Serialization;
 
 namespace Tokenizer.Model
 {
     public class Word : Token
     {
+        [XmlText]
         public string Value { get; }
 
-        public Word(string Value)
+        public Word(string value)
         {
-            this.Value = Value;
+            Value = value;
+        }
+
+        public Word()
+        {
+            Value = string.Empty;
         }
 
         public override string GetValue() => Value;
