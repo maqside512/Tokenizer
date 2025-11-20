@@ -44,18 +44,11 @@ namespace Tokenizer
             Console.WriteLine(replacedText);
             Console.WriteLine();
             
-            try
-            {
-                var stopWordsText = TextProcessor.RemoveStopWords(text, "stopwords.txt");
-                Console.WriteLine("After removing stop words:");
-                Console.WriteLine(stopWordsText);
-                Console.WriteLine();
-            }
-            catch (FileNotFoundException)
-            {
-                Console.WriteLine("Stop words file not found, skipping this test.");
-                Console.WriteLine();
-            }
+            // ТЕСТ СТОП-СЛОВ
+            var stopWordsText = TextProcessor.RemoveStopWords(text, "stopwords.txt");
+            Console.WriteLine("After removing stop words:");
+            Console.WriteLine(stopWordsText);
+            Console.WriteLine();
             
             string xmlFilePath = "text.xml";
             XmlTextSerializer.SerializeToFile(text, xmlFilePath);
