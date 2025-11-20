@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sentence>
-    <Word Value="Hello" />
-    <Word Value="world" />
+    <Word Value="Привет" />
+    <Word Value="и" />
+    <Word Value="мир" />
     <Punctuation>!</Punctuation>
   </Sentence>
   <Sentence>
-    <Word Value="How" />
-    <Word Value="are" />
-    <Word Value="you" />
+    <Word Value="Как" />
+    <Word Value="дела" />
     <Punctuation>?</Punctuation>
   </Sentence>
   <Sentence>
-    <Word Value="I" />
-    <Word Value="am" />
-    <Word Value="fine" />
+    <Word Value="Я" />
+    <Word Value="хорошо" />
     <Punctuation>.</Punctuation>
   </Sentence>
   <Sentence>
-    <Word Value="This" />
-    <Word Value="is" />
-    <Word Value="a" />
-    <Word Value="test" />
+    <Word Value="Это" />
+    <Word Value="тестовый" />
+    <Word Value="текст" />
+    <Word Value="и" />
+    <Word Value="это" />
+    <Word Value="просто" />
+    <Word Value="проверка" />
     <Punctuation>.</Punctuation>
   </Sentence>
 </Text>
